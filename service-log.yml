@@ -3,20 +3,6 @@ server:
   
   spring.application.name: ServiceLog
   
-spring:
-  cloud:
-    consul:
-      discovery:
-        instanceId: servicelog
-        health-check-interval: 5s
-      config:
-        management: 
-          enabled: true
-    stream:
-      bindings:
-        output:
-          binder: kafka
-          destination: cloudEX
 management:
   security: 
     enabled: false
