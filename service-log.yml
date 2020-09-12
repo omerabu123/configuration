@@ -7,7 +7,7 @@ spring:
   cloud:
     consul:
       discovery:
-        instanceId: ServiceLog
+        instanceId: servicelog
         health-check-interval: 5s
       config:
         management: 
