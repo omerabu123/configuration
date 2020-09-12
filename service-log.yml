@@ -1,7 +1,7 @@
 server:
   port: 8001
   
-  spring.application.name: ServiceLog
+  spring.application.name: servicelog
   
 management:
   security: 
