@@ -5,4 +5,4 @@ management:
   security: 
     enabled: false
 
-my.servicelog.adress: http://localhost/log/logmyrequest
+my.servicelog.adress: http://localhost:8001/log/logmyrequest
